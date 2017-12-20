@@ -10,4 +10,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    private AChangeWasMade() {
+        int i = 1234 * 12 / 4;
+        int ii = i / 16 + 7;
+        int iii = 91 + 12 * ii;
 }
